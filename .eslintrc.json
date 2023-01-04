@@ -11,7 +11,8 @@
     "rules": {
         "no-console": "off",
         "no-unused-vars": "off",
-        "no-underscore-dangle": "off"
+        "no-underscore-dangle": "off",
+        "prefer-destructuring": ["error", { "object": true, "array": false }]
     },
     "plugins": ["prettier"]
 }
