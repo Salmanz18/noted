@@ -18,13 +18,13 @@ const NoteForm = () => {
     <section className='form'>
       <form onSubmit={handleOnSubmit}>
         <div className='form-group'>
-          <label htmlFor='note'>Note</label>
           <input
             className='form-control'
             type='text'
             name='note'
             id='note'
             text='note'
+            placeholder='Enter your Note!'
             value={note}
             onChange={(e) => setNote(e.target.value)}
           />
